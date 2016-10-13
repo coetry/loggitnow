@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type: 
+  description: MyString
+  is_done: false
+  time_started: 2016-10-12 23:58:08
+  time_finished: 2016-10-12 23:58:08
+
+two:
+  name: MyString
+  type: 
+  description: MyString
+  is_done: false
+  time_started: 2016-10-12 23:58:08
+  time_finished: 2016-10-12 23:58:08
