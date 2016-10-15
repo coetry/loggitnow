@@ -1,0 +1,16 @@
+<h1>new activity</h1>
+
+<%= form_for :activity, url: activities_path do |f| %>
+  <p>
+    <%= f.label :name, "name of activity" %>
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :activity_type, "type of activity" %>
+    <%= f.text_field :activity_type %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+   

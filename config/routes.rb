@@ -1,5 +1,4 @@
-Rails.application.routes.draw do
-  root 'pages#home'
+Rails.application.routes.draw do  
   get 'home' => 'pages#home'
-
+  resources :activities
 end

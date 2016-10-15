@@ -1,0 +1,10 @@
+<h1> your log </h1>
+
+<% @activities.each do |a| %>
+<p><strong><%= a.name %></strong> -- <%= a.created_at.strftime("%I:%M:%S") %></p>
+<hr>
+<% end %>
+
+
+  
+   
