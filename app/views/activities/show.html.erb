@@ -1,2 +1,2 @@
 
-<p><strong><%= @activity.name %></strong> -- <%= @activity.created_at.strftime("%I:%M:%S") %></p>
+<p><strong><%= @activity.name %></strong> -- <%= Time.at(@activity.created_at.to_i).in_time_zone("Central Time (US & Canada)").strftime("%I:%M") %></p>

@@ -1,4 +1,5 @@
-Rails.application.routes.draw do  
-  get 'home' => 'pages#home'
+Rails.application.routes.draw do
+  root 'activities#index'
+  
   resources :activities
 end
