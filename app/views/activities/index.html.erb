@@ -3,8 +3,9 @@
 <%= link_to "new", new_activity_path %>
 
 <% @activities.reverse_order.each do |a| %>
-<p><strong><%= a.name %></strong> -- <%= Time.at(a.created_at.to_i).in_time_zone("Central Time (US & Canada)").strftime("%I:%M") %></p>
-<hr>
+  <p><strong><%= a.name %></strong> -- <%= Time.at(a.created_at.to_i).in_time_zone("Central Time (US & Canada)").strftime("%I:%M") %></p>
+  <p><%= a.description %></p>
+  <hr>
 <% end %>
 
 
